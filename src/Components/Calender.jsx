@@ -7,57 +7,46 @@ import Card from 'react-bootstrap/Card';
 function Calender() {
     return (
         <section>
-            <div>
-                <span className="text-primary fs-3"><BsArrowLeftCircleFill /></span>
-                <div>
-                    <p>Calender</p>
-                    <hr />
-                </div>
-                <span className="text-primary fs-3"><BsArrowRightCircleFill /></span>
+            <div className="d-flex justify-content-between align-content-center mb-3">
+                <span role="button" className="text-primary fs-3"><BsArrowLeftCircleFill /></span>
+                <p className="mb-0 pb-0 pt-2 fs-4">My Study Calender</p>
+                <span role="button" className="text-primary fs-3"><BsArrowRightCircleFill /></span>
             </div>
             <div>
                 <Row>
                     <Col>
-                        <Card>
+                        <Card className="mb-3">
                             <Card.Header>Monday 13 September 2025</Card.Header>
-                            <Card.Body>
-                                <Card.Title> Card Title </Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
-                                </Card.Text>
+                            <Card.Body className="d-flex flex-column justify-content-center">
+                                <Link to="/study-card/1" className="btn btn-secondary pb-2 my-2">Study Card One</Link>
+                                <Link to="/study-card/1" className="btn btn-secondary pb-2 my-2">Study Card Two</Link>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col>
-                        <Card>
+                        <Card className="mb-3">
                             <Card.Header>Monday 13 September 2025</Card.Header>
-                            <Card.Body>
-                                <Card.Title> Card Title </Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
-                                </Card.Text>
+                            <Card.Body className="d-flex flex-column justify-content-center">
+                                <Link to="/study-card/1" className="btn btn-secondary pb-2 my-2">Study Card One</Link>
+                                <Link to="/study-card/1" className="btn btn-secondary pb-2 my-2">Study Card Two</Link>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col>
-                        <Card>
+                        <Card className="mb-3">
                             <Card.Header>Monday 13 September 2025</Card.Header>
-                            <Card.Body>
-                                <Card.Title> Card Title </Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
-                                </Card.Text>
+                            <Card.Body className="d-flex flex-column justify-content-center">
+                                <Link to="/study-card/1" className="btn btn-secondary pb-2 my-2">Study Card One</Link>
+                                <Link to="/study-card/1" className="btn btn-secondary pb-2 my-2">Study Card Two</Link>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col>
-                        <Card>
+                        <Card className="mb-3">
                             <Card.Header>Monday 13 September 2025</Card.Header>
-                            <Card.Body>
-                                <Link to="/study-card/1" className="btn btn-secondary pb-2">View All Study Cards</Link>
+                            <Card.Body className="d-flex flex-column justify-content-center">
+                                <Link to="/study-card/1" className="btn btn-secondary pb-2 my-2">Study Card One</Link>
+                                <Link to="/study-card/1" className="btn btn-secondary pb-2 my-2">Study Card Two</Link>
                             </Card.Body>
                         </Card>
                     </Col>

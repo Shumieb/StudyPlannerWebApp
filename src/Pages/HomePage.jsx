@@ -17,11 +17,11 @@ function HomePage() {
             <Container>
 
                 <section>
-                    <p>Hello UserName</p>
-                    <p>Today is {date}/{month + 1}/{year}</p>
+                    <p className="fs-4 text-center">Hello UserName</p>
+                    <p className="fs-4 text-center">Today is {date}/{month + 1}/{year}</p>
                 </section>
 
-                <section className="mb-3">
+                <section className="mb-3 text-end">
                     <Link to="/study-cards" className="btn btn-primary pb-2">View All Study Cards</Link>
                 </section>
 
