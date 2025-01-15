@@ -19,6 +19,7 @@ function HomePage() {
                 <section>
                     <p className="fs-4 text-center">Hello UserName</p>
                     <p className="fs-4 text-center">Today is {date}/{month + 1}/{year}</p>
+                    <p className="fs-5 text-center">You have 3 Study Cards Due Today</p>
                 </section>
 
                 <section className="mb-3 text-end">

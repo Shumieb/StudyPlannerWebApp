@@ -3,6 +3,7 @@ import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
+import StudyCardCard from "./StudyCardCard";
 
 function Calender() {
     return (
@@ -18,8 +19,9 @@ function Calender() {
                         <Card className="mb-3">
                             <Card.Header>Monday 13 September 2025</Card.Header>
                             <Card.Body className="d-flex flex-column justify-content-center">
-                                <Link to="/study-card/1" className="btn btn-secondary pb-2 my-2">Study Card One</Link>
-                                <Link to="/study-card/1" className="btn btn-secondary pb-2 my-2">Study Card Two</Link>
+                                <StudyCardCard />
+                                <StudyCardCard />
+                                <StudyCardCard />
                             </Card.Body>
                         </Card>
                     </Col>
@@ -27,8 +29,9 @@ function Calender() {
                         <Card className="mb-3">
                             <Card.Header>Monday 13 September 2025</Card.Header>
                             <Card.Body className="d-flex flex-column justify-content-center">
-                                <Link to="/study-card/1" className="btn btn-secondary pb-2 my-2">Study Card One</Link>
-                                <Link to="/study-card/1" className="btn btn-secondary pb-2 my-2">Study Card Two</Link>
+                                <StudyCardCard />
+                                <StudyCardCard />
+                                <StudyCardCard />
                             </Card.Body>
                         </Card>
                     </Col>
@@ -36,8 +39,9 @@ function Calender() {
                         <Card className="mb-3">
                             <Card.Header>Monday 13 September 2025</Card.Header>
                             <Card.Body className="d-flex flex-column justify-content-center">
-                                <Link to="/study-card/1" className="btn btn-secondary pb-2 my-2">Study Card One</Link>
-                                <Link to="/study-card/1" className="btn btn-secondary pb-2 my-2">Study Card Two</Link>
+                                <StudyCardCard />
+                                <StudyCardCard />
+                                <StudyCardCard />
                             </Card.Body>
                         </Card>
                     </Col>
@@ -45,8 +49,9 @@ function Calender() {
                         <Card className="mb-3">
                             <Card.Header>Monday 13 September 2025</Card.Header>
                             <Card.Body className="d-flex flex-column justify-content-center">
-                                <Link to="/study-card/1" className="btn btn-secondary pb-2 my-2">Study Card One</Link>
-                                <Link to="/study-card/1" className="btn btn-secondary pb-2 my-2">Study Card Two</Link>
+                                <StudyCardCard />
+                                <StudyCardCard />
+                                <StudyCardCard />
                             </Card.Body>
                         </Card>
                     </Col>

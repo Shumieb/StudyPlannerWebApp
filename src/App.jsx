@@ -5,7 +5,7 @@ import Footer from './Components/Footer';
 import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
 import StudyCardsPage from './Pages/StudyCardsPage';
-import StudyCard from './Pages/StudyCard';
+import StudyCardPage from './Pages/StudyCardPage';
 
 function App() {
 
@@ -36,7 +36,7 @@ function App() {
         },
         {
           path: "/study-card/:id",
-          element: <StudyCard />
+          element: <StudyCardPage />
         },
         {
           path: "/about",
