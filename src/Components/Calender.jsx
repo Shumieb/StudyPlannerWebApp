@@ -1,9 +1,6 @@
-import { Link } from "react-router-dom"
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card';
-import StudyCardCard from "./StudyCardCard";
 import CalenderDateCard from "./CalenderDateCard";
 
 function Calender() {
@@ -20,34 +17,13 @@ function Calender() {
                         <CalenderDateCard />
                     </Col>
                     <Col>
-                        <Card className="mb-3">
-                            <Card.Header>Monday 13 September 2025</Card.Header>
-                            <Card.Body className="d-flex flex-column justify-content-center">
-                                <StudyCardCard />
-                                <StudyCardCard />
-                                <StudyCardCard />
-                            </Card.Body>
-                        </Card>
+                        <CalenderDateCard />
                     </Col>
                     <Col>
-                        <Card className="mb-3">
-                            <Card.Header>Monday 13 September 2025</Card.Header>
-                            <Card.Body className="d-flex flex-column justify-content-center">
-                                <StudyCardCard />
-                                <StudyCardCard />
-                                <StudyCardCard />
-                            </Card.Body>
-                        </Card>
+                        <CalenderDateCard />
                     </Col>
                     <Col>
-                        <Card className="mb-3">
-                            <Card.Header>Monday 13 September 2025</Card.Header>
-                            <Card.Body className="d-flex flex-column justify-content-center">
-                                <StudyCardCard />
-                                <StudyCardCard />
-                                <StudyCardCard />
-                            </Card.Body>
-                        </Card>
+                        <CalenderDateCard />
                     </Col>
                 </Row>
             </div>

@@ -6,6 +6,7 @@ import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
 import StudyCardsPage from './Pages/StudyCardsPage';
 import StudyCardPage from './Pages/StudyCardPage';
+import AddNewStudyCardPage from './Pages/AddNewStudyCardPage';
 
 function App() {
 
@@ -33,6 +34,10 @@ function App() {
         {
           path: "/study-cards",
           element: <StudyCardsPage />
+        },
+        {
+          path: "/new-study-card",
+          element: <AddNewStudyCardPage />
         },
         {
           path: "/study-card/:id",
